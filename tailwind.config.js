@@ -4,6 +4,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        iix: { max: "325px" },
+        ixr: { min: "326px", max: "399px" },
+        ixi: { min: "400px", max: "499px" },
+      },
       colors: {
         lightC: "#fafafa",
         darkC: "#0f0f0f",

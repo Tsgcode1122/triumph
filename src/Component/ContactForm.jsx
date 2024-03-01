@@ -87,7 +87,7 @@ const ContactForm = () => {
                 Get An Instant Quote Now!
               </p>
             </div>
-            <p className="text-lightC mb-4  text-justify mx-8 tsgf max-[320px]:mx-4 ixr:mx-4 ixi:mx-4 left-in">
+            <p className="text-lightC mb-4  text-justify mx-8 tsgf iix:mx-4 ixr:mx-4 ixi:mx-4 left-in">
               Questions, feedback, or inquiries? Connect with us by phone,
               email, or the form below. Whether you're an artist, enthusiast, or
               curious visitor, let's start a conversation and explore
@@ -95,7 +95,7 @@ const ContactForm = () => {
               Get a quote now!
             </p>
             <div className="flex flex-col items-center justify-center  bg-transparent tsgf">
-              <div className="flex px-4 justify-center  items-center ixi:gap-4 mb-4 tsgf ixi:flex-col max-[320px]:flex-col max-[320px]:gap-4 ixr:flex-col ixr:gap-4">
+              <div className="flex px-4 justify-center  items-center ixi:gap-4 mb-4 tsgf ixi:flex-col iix:flex-col iix:gap-4 ixr:flex-col ixr:gap-4">
                 <a href="https://www.instagram.com/triumphsolarpicasso?igsh=MWF5d21nN3p4bWEzZQ==">
                   <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
                     <FaInstagram /> triumphsolarpicasso
@@ -126,10 +126,10 @@ const ContactForm = () => {
           </div>
           <form
             onSubmit={handleSubmit}
-            className="space-y-4 p-10 sm:px-24 md:mx-16 font-tsg bg-lightC mt-[-29px] box-shad gb lg:mx-2 lg:px-6 max-[320px]:px-4 ixi:px-4 ixr:px-4 "
+            className="space-y-4 p-10 sm:px-24 md:mx-16 font-tsg bg-lightC mt-[-29px] box-shad gb lg:mx-2 lg:px-6 iix:px-4 ixi:px-4 ixr:px-4 "
           >
             <div className="zoom">
-              <div className="flex justify-between max-[320px]:grid max-[320px]:grid-cols-2 max-[320px]:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
+              <div className="flex justify-between iix:grid iix:grid-cols-2 iix:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
                 <div>
                   <label
                     htmlFor="name"
@@ -167,7 +167,7 @@ const ContactForm = () => {
                   />
                 </div>
               </div>
-              <div className="flex justify-between max-[320px]:grid max-[320px]:grid-cols-2 max-[320px]:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
+              <div className="flex justify-between iix:grid iix:grid-cols-2 iix:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
                 <div>
                   <label
                     htmlFor="phone"
