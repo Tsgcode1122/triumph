@@ -37,7 +37,7 @@ const GalleryImg = () => {
           </p>
         </div>
 
-        <div className=" mt-20 lg:grid lg:grid-cols-2  gap-4 items-center px-8">
+        <div className=" mt-24 lg:grid lg:grid-cols-2  gap-4 items-center ">
           <div
             className={`mb-4 relative bg-redC box-shad gb ${
               isDragging ? "sticky" : ""
