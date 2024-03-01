@@ -72,7 +72,7 @@ const Whychoose = () => {
           className="     grid min-[500px]:grid-cols-2 lg:grid-cols-4  items-center   iix:grid-cols-1 ixr:grid-cols-2 ixi:grid-cols-2 "
         >
           <div
-            className=" flex  flex-col min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixi:mx-0 ixr:min-w-0"
+            className=" flex  flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixi:mx-0 ixr:min-w-0"
             id="why-choose-1"
           >
             <img src={icon1} className="h-16 mb-2" />
@@ -85,7 +85,7 @@ const Whychoose = () => {
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixr:min-w-0 ">
+          <div className="flex  flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixr:min-w-0 ">
             <img src={icon2} className="h-16 mb-2" />
             <div>
               {" "}
@@ -97,7 +97,7 @@ const Whychoose = () => {
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center m-4  ixi:min-w-0  ixr:min-w-0">
+          <div className="flex  flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4  ixi:min-w-0  ixr:min-w-0">
             <img src={icon3} className="h-16 mb-2" />
             <div>
               <h2 className="text-redC m-0  text-2xl font-tsg font-bold">
@@ -108,7 +108,7 @@ const Whychoose = () => {
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center m-4  ixi:min-w-0  ixr:min-w-0">
+          <div className="flex  flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4  ixi:min-w-0  ixr:min-w-0">
             <img src={icon4} className="h-16 mb-2" />
             <div>
               <h2 className="text-redC m-0  text-2xl font-tsg font-bold">

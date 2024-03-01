@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../hero.css";
 import bef1 from "../Images/bef1.jpg";
 import aft1 from "../Images/aft1.jpg";
@@ -7,12 +7,15 @@ import aft2 from "../Images/aft2.jpg";
 import brick from "../Images/icons/light.png";
 import ReactCompareImage from "react-compare-image";
 import useZoomInAnimation from "../animation/useZoomInAnimation";
+
 const GalleryImg = () => {
+  const containerRef = useRef(null);
   useZoomInAnimation(".zoom");
+
   return (
     <>
       <div className="bg-cover bg-center justify-center text-center">
-        <div className=" flex flex-col items-center relative my-8 zoom">
+        <div className="flex flex-col items-center relative my-8 zoom">
           <img
             src={brick}
             className="max-w-full h-[3rem]  rounded-full bg-lightC p-2 absolute mt-[-2rem] box-shad "
@@ -27,19 +30,19 @@ const GalleryImg = () => {
         </div>
 
         <div className="lg:grid lg:grid-cols-2 gap-4 items-center">
-          <div className="mb-4 ">
+          <div className="mb-4" ref={containerRef}>
             <ReactCompareImage
               leftImage={bef1}
               rightImage={aft1}
               aspectRatio="wider"
-              noSwipe
+              containerRef={containerRef}
             />
           </div>
           <ReactCompareImage
             leftImage={bef2}
             rightImage={aft2}
             aspectRatio="wider"
-            noSwipe
+            containerRef={containerRef}
           />
         </div>
       </div>
