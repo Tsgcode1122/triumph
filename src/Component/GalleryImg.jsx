@@ -29,7 +29,7 @@ const GalleryImg = () => {
           </p>
         </div>
 
-        <div className="lg:grid lg:grid-cols-2 gap-4 items-center">
+        <div className="lg:grid lg:grid-cols-2 sticky gap-4 items-center">
           <div className="mb-4" ref={containerRef}>
             <ReactCompareImage
               leftImage={bef1}
