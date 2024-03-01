@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import "../hero.css";
 import bef1 from "../Images/bef1.jpg";
 import aft1 from "../Images/aft1.jpg";
@@ -9,9 +9,17 @@ import ReactCompareImage from "react-compare-image";
 import useZoomInAnimation from "../animation/useZoomInAnimation";
 
 const GalleryImg = () => {
-  const containerRef = useRef(null);
   useZoomInAnimation(".zoom");
+  const containerRef = useRef(null);
+  const [isDragging, setIsDragging] = useState(false);
 
+  const handleDragStart = () => {
+    setIsDragging(true);
+  };
+
+  const handleDragEnd = () => {
+    setIsDragging(false);
+  };
   return (
     <>
       <div className="bg-cover bg-center justify-center text-center">
@@ -29,23 +37,35 @@ const GalleryImg = () => {
           </p>
         </div>
 
-        <div className="lg:grid lg:grid-cols-2  gap-4 items-center px-8">
-          <div className="mb-4 " ref={containerRef}>
+        <div className=" mt-20 lg:grid lg:grid-cols-2  gap-4 items-center px-8">
+          <div
+            className={`mb-4 relative bg-redC box-shad gb ${
+              isDragging ? "sticky" : ""
+            }`}
+            ref={containerRef}
+          >
             <ReactCompareImage
               leftImage={bef1}
               rightImage={aft1}
               aspectRatio="wider"
               containerRef={containerRef}
-              className="box-shad  sticky gb"
+              onSliderDragStart={handleDragStart}
+              onSliderDragEnd={handleDragEnd}
             />
           </div>
-          <ReactCompareImage
-            leftImage={bef2}
-            rightImage={aft2}
-            aspectRatio="wider"
-            containerRef={containerRef}
-            className="box-shad  sticky gb"
-          />
+          <div
+            className={`box-shad gb ${isDragging ? "sticky" : ""}`}
+            ref={containerRef}
+          >
+            <ReactCompareImage
+              leftImage={bef2}
+              rightImage={aft2}
+              aspectRatio="wider"
+              containerRef={containerRef}
+              onSliderDragStart={handleDragStart}
+              onSliderDragEnd={handleDragEnd}
+            />
+          </div>
         </div>
       </div>
     </>
