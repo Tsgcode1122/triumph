@@ -30,20 +30,34 @@ const GalleryImg = () => {
         </div>
 
         <div className="lg:grid lg:grid-cols-2 sticky gap-4 items-center">
-          <div className="mb-4" ref={containerRef}>
-            <ReactCompareImage
-              leftImage={bef1}
-              rightImage={aft1}
-              aspectRatio="wider"
-              containerRef={containerRef}
-            />
+          <div className="mb-4">
+            <div className="diff aspect-[15/12]">
+              <div className="diff-item-1">
+                <div className="bg-primary text-primary-content text-9xl font-black grid place-content-center">
+                  <img src={aft1} />
+                </div>
+              </div>
+              <div className="diff-item-2">
+                <div className="bg-base-200 text-9xl font-black grid place-content-center">
+                  <img src={bef1} />
+                </div>
+              </div>
+              <div className="diff-resizer"></div>
+            </div>
           </div>
-          <ReactCompareImage
-            leftImage={bef2}
-            rightImage={aft2}
-            aspectRatio="wider"
-            containerRef={containerRef}
-          />
+          <div className="diff aspect-[15/11]">
+            <div className="diff-item-1">
+              <div className="bg-primary text-primary-content text-9xl font-black grid place-content-center">
+                <img src={aft2} />
+              </div>
+            </div>
+            <div className="diff-item-2">
+              <div className="bg-base-200 text-9xl font-black grid place-content-center">
+                <img src={bef2} />
+              </div>
+            </div>
+            <div className="diff-resizer"></div>
+          </div>
         </div>
       </div>
     </>
