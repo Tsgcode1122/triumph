@@ -103,3 +103,18 @@ button:hover {
   border-right: 1px solid #bf0a30;
   border-bottom: 1px solid #bf0a30;
 }
+.diff {
+  position: relative;
+}
+
+.diff-resizer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px; /* Adjust the width of the resizer line */
+  background-color: #000; /* Adjust the color of the resizer line */
+  transform: translateX(-50%);
+  z-index: 1; /* Ensure resizer is above images */
+}
