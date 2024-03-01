@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="text-center md:grid md:grid-cols-2 md:gap-4 zoom">
+        <div className="text-center md:grid md:grid-cols-2 md:gap-4 ">
           <div className="my-4 text-lightC bg-blueC border-lightC border-design p-6  box-shad ">
             <h3 className="font-bold font-tsg text-redC  md:text-xl xl:text-[25px] left-in">
               EXPERTISE
