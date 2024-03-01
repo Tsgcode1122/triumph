@@ -67,7 +67,10 @@ const Whychoose = () => {
   return (
     <>
       <div className=" m-0 bg-blueC min-[500px]:px-8 py-8 xl:px-48 ixi:px-2 iix:px-2 ixr:px-2">
-        <div id="why-choose-section" className="     ">
+        <div
+          id="why-choose-section"
+          className="     grid min-[500px]:grid-cols-2 lg:grid-cols-4  items-center   iix:grid-cols-1 ixr:grid-cols-2 ixi:grid-cols-2 "
+        >
           <div
             className=" flex  flex-col min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixi:mx-0 ixr:min-w-0"
             id="why-choose-1"

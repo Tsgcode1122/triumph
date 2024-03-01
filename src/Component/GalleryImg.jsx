@@ -32,12 +32,14 @@ const GalleryImg = () => {
               leftImage={bef1}
               rightImage={aft1}
               aspectRatio="wider"
+              noSwipe
             />
           </div>
           <ReactCompareImage
             leftImage={bef2}
             rightImage={aft2}
             aspectRatio="wider"
+            noSwipe
           />
         </div>
       </div>
