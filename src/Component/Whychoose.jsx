@@ -66,60 +66,63 @@ const Whychoose = () => {
 
   return (
     <>
-      <div className=" m-0 bg-blueC min-[500px]:px-8 py-8 xl:px-48 ixi:px-2 iix:px-2 ixr:px-2">
+      <div className=" m-0 bg-blueC min-[500px]:px-8 py-8 xl:px-48 ixi:px-2 iix:px-2 ixr:px-2 ">
         <div
           id="why-choose-section"
-          className="     grid min-[500px]:grid-cols-2 lg:grid-cols-4  items-center   iix:grid-cols-1 ixr:grid-cols-2 ixi:grid-cols-2 "
+          className="grid iix:grid-cols-1 ixr:grid-cols-2 ixi:grid-cols-2 min-[500px]:grid-col-2 md:grid-cols-2 lg:grid-cols-4 gap-4 items-center text-center overflow-hidden"
         >
           <div
-            className=" flex  flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixi:mx-0 ixr:min-w-0"
+            className="flex flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4"
             id="why-choose-1"
           >
             <img src={icon1} className="h-16 mb-2" />
             <div>
-              <h2 className="text-redC m-0  text-2xl font-tsg font-bold">
+              <h2 className="text-redC m-0 text-2xl font-tsg font-bold">
                 {counts.supplies.toLocaleString()}+
               </h2>
-              <h4 className=" text-lightC block font-h4 text-primary-color font-medium text-lg leading-none tsgf">
+              <h4 className="text-lightC block font-h4 text-primary-color font-medium text-lg leading-none tsgf">
                 Happy Clients
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixr:min-w-0 ">
+
+          <div className="flex flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4">
             <img src={icon2} className="h-16 mb-2" />
             <div>
-              {" "}
-              <h2 className="text-redC m-0  text-2xl font-tsg font-bold ">
+              <h2 className="text-redC m-0 text-2xl font-tsg font-bold">
                 {counts.customers.toLocaleString()}+
               </h2>
-              <h4 className=" text-lightC block mt-0 font-h4 text-primary-color font-medium text-lg leading-none tsgf">
+              <h4 className="text-lightC block mt-0 font-h4 text-primary-color font-medium text-lg leading-none tsgf">
                 Project Done
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4  ixi:min-w-0  ixr:min-w-0">
+
+          <div className="flex flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4">
             <img src={icon3} className="h-16 mb-2" />
             <div>
-              <h2 className="text-redC m-0  text-2xl font-tsg font-bold">
+              <h2 className="text-redC m-0 text-2xl font-tsg font-bold">
                 {counts.products}
               </h2>
-              <h4 className=" text-lightC block font-h4 text-primary-color font-medium text-lg leading-none tsgf">
+              <h4 className="text-lightC block font-h4 text-primary-color font-medium text-lg leading-none tsgf">
                 Years of Experience
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4  ixi:min-w-0  ixr:min-w-0">
+
+          <div className="flex flex-col min-[500px]:min-w-[10rem] justify-center items-center text-center m-4">
             <img src={icon4} className="h-16 mb-2" />
             <div>
-              <h2 className="text-redC m-0  text-2xl font-tsg font-bold">
+              <h2 className="text-redC m-0 text-2xl font-tsg font-bold">
                 {counts.partners}
               </h2>
-              <h4 className=" text-lightC block font-h4 text-primary-color font-medium text-lg leading-none tsgf">
+              <h4 className="text-lightC block font-h4 text-primary-color font-medium text-lg leading-none tsgf">
                 Staffs
               </h4>
             </div>
           </div>
         </div>
+
         <div className="flex justify-center items-center lg:mt-8 ">
           <a href="tel:+14016326426">
             <button className="bg-redC text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 shadow m-4 tsgf flex items-center gap-4">
