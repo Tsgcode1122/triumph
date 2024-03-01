@@ -13,7 +13,7 @@ const ServiceList = () => {
   };
   return (
     <>
-      <div className="m-0 p-8 bg-lightC bg-center justify-center text-center sm:px-6   bg-no-repeat iix:px-4 ixi:px-6 ixr:px-6">
+      <div className="m-0 min-[500px]:px-8 py-8 bg-lightC bg-center justify-center text-center sm:px-6   bg-no-repeat iix:px-4 ixi:px-6 ixr:px-6">
         <div className=" flex flex-col items-center relative my-8 zoom">
           <img
             src={brick}
@@ -53,7 +53,7 @@ const ServiceList = () => {
                 <h2 className="text-blueC text-xl font-bold font-tsg text-[25px]">
                   {service.service_name}
                 </h2>
-                <p className="mb-4 tsgf text-justify min-h-[8rem] xl:min-h-[10rem] p-2 ixi:text-justify ixi:text-[14px] iix:text-[12px] ixr:text-[14px] ">
+                <p className="mb-4 tsgf text-justify  min-h-[8rem] xl:min-h-[10rem] p-2  ixi:text-[14px] iix:text-[12px] ixr:text-[14px] ">
                   {service.service_description}
                 </p>
                 <Link key={index} to={`/Services/${service.id}`}>

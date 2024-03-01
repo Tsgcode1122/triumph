@@ -15,10 +15,10 @@ const Hero = () => {
       >
         <div className=" min-[500px]:px-8 py-8 pt-[12rem] pb-[10rem] bg-blueC bg-opacity-60 text-lightC h-full w-screen  iix:px-2 iix:overflow-hidden   ixr:px-2   ixi:px-2    ">
           <div className="pb-4 md:mt-12 lg:mt-24  ">
-            <h1 className=" leading-10  font-bold font-tsg sm:text-[80px] sm:leading-[70px] md:text-[90px] lg:text-[100px] xl:text-[120px] iix:text-[60px] ixr:text-[60px] ixi:text-[60px] ">
+            <h1 className=" min-[500px]:text-[70px] leading-10  font-bold font-tsg sm:text-[80px] sm:leading-[70px] md:text-[90px] lg:text-[100px] xl:text-[120px] iix:text-[60px] ixr:text-[60px] ixi:text-[60px] ">
               TRIUMPH
             </h1>
-            <span className="text-lightC  font-bold font-tsg sm:text-[40px] md:text-[42px] lg:text-[41px] xl:text-[50px]  iix:text-[32px]    ixr:text-[32px]   ixi:text-[32px]    ">
+            <span className="text-lightC min-[500px]:text-[35px] font-bold font-tsg sm:text-[40px] md:text-[42px] lg:text-[45px] xl:text-[50px]  iix:text-[32px]    ixr:text-[32px]   ixi:text-[32px]    ">
               SolarPicasso
             </span>
           </div>

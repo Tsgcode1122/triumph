@@ -87,7 +87,7 @@ const ContactForm = () => {
                 Get An Instant Quote Now!
               </p>
             </div>
-            <p className="text-lightC mb-4  text-justify mx-8 tsgf iix:mx-4 ixr:mx-4 ixi:mx-4 left-in">
+            <p className="text-lightC mb-4  text-justify min-[500px]:mx-8 tsgf iix:mx-4 ixr:mx-4 ixi:mx-4 left-in">
               Questions, feedback, or inquiries? Connect with us by phone,
               email, or the form below. Whether you're an artist, enthusiast, or
               curious visitor, let's start a conversation and explore
@@ -126,7 +126,7 @@ const ContactForm = () => {
           </div>
           <form
             onSubmit={handleSubmit}
-            className="space-y-4 p-10 sm:px-24 md:mx-16 font-tsg bg-lightC mt-[-29px] box-shad gb lg:mx-2 lg:px-6 iix:px-4 ixi:px-4 ixr:px-4 "
+            className="space-y-4 min-[500px]:px-10 py-10 sm:px-24 md:mx-16 font-tsg bg-lightC mt-[-29px] box-shad gb lg:mx-2 lg:px-6 iix:px-4 ixi:px-4 ixr:px-4 "
           >
             <div className="zoom">
               <div className="flex justify-between iix:grid iix:grid-cols-2 iix:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
@@ -167,7 +167,7 @@ const ContactForm = () => {
                   />
                 </div>
               </div>
-              <div className="flex justify-between iix:grid iix:grid-cols-2 iix:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
+              <div className="min-[500px]:flex justify-between iix:grid iix:grid-cols-2 iix:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
                 <div>
                   <label
                     htmlFor="phone"

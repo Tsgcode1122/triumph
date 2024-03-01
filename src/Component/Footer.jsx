@@ -15,7 +15,7 @@ const Footer = () => {
     <>
       <div className="bg-lightC">
         <div
-          className=" grid grid-cols-2 gap-4 sm:gap-6 bg-cover bg-center text-lightC mt-8 box-shad px-8 pt-12 lg:grid-cols-4 xl:px-36 gb  iix:grid-cols-1  ixr:grid-cols-1 ixi:grid-cols-1 ixr:px-4 iix:px-2 ixi:px-4"
+          className=" grid min-[500px]:grid-cols-2 gap-4 sm:gap-6 bg-cover bg-center text-lightC mt-8 box-shad min-[500px]:px-8 pt-12 lg:grid-cols-4 xl:px-36 gb  iix:grid-cols-1  ixr:grid-cols-1 ixi:grid-cols-1 ixr:px-4 iix:px-2 ixi:px-4"
           style={bStyle}
         >
           <div className="pb-6 iix:pb-2 ixr:pb-2 ixi:pb-2  ">
@@ -30,7 +30,7 @@ const Footer = () => {
               gutter cleaning, and versatile handyman solutions.
             </p>
           </div>
-          <div className="pb-6 iix:pb-2 ixr:pb-2 ixi:pb-2 ">
+          <div className="min-[500px]:pb-6 iix:pb-2 ixr:pb-2 ixi:pb-2 ">
             <h3 className="text-redC mb-1 font-tsg text-xl font-bold">
               Useful Links
             </h3>
@@ -66,7 +66,7 @@ const Footer = () => {
               <p>and handyman services...</p>
             </div>
           </div>
-          <div className="pb-6 iix:pb-2 ixr:pb-2 ixi:pb-2  ">
+          <div className="min-[500px]:pb-6 iix:pb-2 ixr:pb-2 ixi:pb-2  ">
             <h3 className="text-redC mb-1 font-tsg text-xl font-bold">
               Contact Us
             </h3>
