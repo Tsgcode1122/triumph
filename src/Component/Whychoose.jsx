@@ -66,13 +66,13 @@ const Whychoose = () => {
 
   return (
     <>
-      <div className=" bg-blueC min-[500px]:px-8 py-8 xl:px-48 ixi:px-2 ixr:px-2">
+      <div className=" bg-blueC min-[500px]:px-8 py-8 xl:px-48 ixi:px-2 iix:px-2 ixr:px-2">
         <div
           id="why-choose-section"
-          className="     grid min-[500px]:grid-cols-2 lg:grid-cols-4 justify-center items-center text-center   gap-8 iix:grid-cols-1 ixi:px-4 ixr:px-2 ixr:grid-cols-2 ixi:grid-cols-2"
+          className="     grid min-[500px]:grid-cols-2 lg:grid-cols-4  items-center text-center   iix:grid-cols-1 ixi:px-4 ixr:px-2 ixr:grid-cols-2 ixi:grid-cols-2 "
         >
           <div
-            className=" flex  flex-col min-w-[10rem] justify-center items-center text-center mx-4 ixi:min-w-0 ixi:mx-0 ixr:min-w-0"
+            className=" flex  flex-col min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixi:mx-0 ixr:min-w-0"
             id="why-choose-1"
           >
             <img src={icon1} className="h-16 mb-2" />
@@ -85,7 +85,7 @@ const Whychoose = () => {
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center mx-4 ixi:min-w-0 ixr:min-w-0 ">
+          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center m-4 ixi:min-w-0 ixr:min-w-0 ">
             <img src={icon2} className="h-16 mb-2" />
             <div>
               {" "}
@@ -97,7 +97,7 @@ const Whychoose = () => {
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center mx-4  ixi:min-w-0  ixr:min-w-0">
+          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center m-4  ixi:min-w-0  ixr:min-w-0">
             <img src={icon3} className="h-16 mb-2" />
             <div>
               <h2 className="text-redC m-0  text-2xl font-tsg font-bold">
@@ -108,7 +108,7 @@ const Whychoose = () => {
               </h4>
             </div>
           </div>
-          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center mx-4  ixi:min-w-0  ixr:min-w-0">
+          <div className="flex  flex-col min-w-[10rem] justify-center items-center text-center m-4  ixi:min-w-0  ixr:min-w-0">
             <img src={icon4} className="h-16 mb-2" />
             <div>
               <h2 className="text-redC m-0  text-2xl font-tsg font-bold">
