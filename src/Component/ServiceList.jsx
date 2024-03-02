@@ -14,7 +14,7 @@ const ServiceList = () => {
   return (
     <>
       <div className="m-0 min-[500px]:px-8 py-8 bg-lightC bg-center justify-center text-center sm:px-6   bg-no-repeat iix:px-4 ixi:px-6 ixr:px-6">
-        <div className=" flex flex-col items-center relative my-8 zoom">
+        <div className=" flex flex-col items-center relative mt-8 mb-14 zoom">
           <img
             src={brick}
             className="max-w-full h-[3rem] rounded-full bg-lightC p-2 absolute mt-[-2rem] box-shad "
