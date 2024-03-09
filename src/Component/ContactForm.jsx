@@ -87,7 +87,7 @@ const ContactForm = () => {
                 Get An Instant Quote Now!
               </p>
             </div>
-            <p className="text-lightC mb-4  text-justify min-[500px]:mx-8 tsgf iix:mx-4 ixr:mx-4 ixi:mx-4 left-in">
+            <p className="text-lightC mb-4  text-center min-[500px]:mx-8 tsgf iix:mx-4 ixr:mx-4 ixi:mx-4 left-in">
               Questions, feedback, or inquiries? Connect with us by phone,
               email, or the form below. Whether you're an artist, enthusiast, or
               curious visitor, let's start a conversation and explore

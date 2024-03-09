@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
             <h3 className="font-bold font-tsg text-redC  md:text-xl xl:text-[25px] left-in">
               EXPERTISE
             </h3>
-            <p className="tsgf text-justify  xl:text-xl">
+            <p className="tsgf text-center  xl:text-xl">
               With industry leadership and extensive experience, we deliver
               excellence in every service. Your satisfaction is our priority.
             </p>
@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
             <h3 className="font-bold font-tsg text-redC md:text-xl xl:text-[25px] left-in">
               VERSATILITY
             </h3>
-            <p className="tsgf text-justify  xl:text-xl">
+            <p className="tsgf text-center  xl:text-xl">
               Offering a range of home services including painting, gutter
               cleaning, solar maintenance, and more. to meet your need.
               Prioritizing your contentment.
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
             <h3 className="font-bold font-tsg text-redC md:text-xl xl:text-[25px] rleft-in">
               QUALITY SERVICE
             </h3>
-            <p className="tsgf text-justify  xl:text-xl">
+            <p className="tsgf text-center  xl:text-xl">
               We are committed to delivering excellence in every service we
               offer. Our services are not only of the highest quality but also
               trustworthy and dependable.
@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
             <h3 className="font-bold font-tsg text-redC md:text-xl xl:text-[25px] left-in">
               CUSTOMER SATISFACTION
             </h3>
-            <p className="tsgf text-justify xl:text-xl">
+            <p className="tsgf text-center xl:text-xl">
               We prioritize your contentment by providing top-notch services.
               Our team consists of highly trained experts dedicated to ensuring
               your satisfaction.

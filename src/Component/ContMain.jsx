@@ -84,7 +84,7 @@ const ContMain = () => {
                 Get an Instant Quoute Now!
               </p>
             </div>
-            <p className="text-blueC mb-4  text-justify mx-8 tsgf iix:mx-4 ixr:mx-4 ixi:mx-4 left-in">
+            <p className="text-blueC mb-4  text-center mx-8 tsgf iix:mx-4 ixr:mx-4 ixi:mx-4 left-in">
               Questions, feedback, or inquiries? Connect with us by phone,
               email, or the form below. Whether you're an artist, enthusiast, or
               curious visitor, let's start a conversation and explore

@@ -53,7 +53,7 @@ const ServiceList = () => {
                 <h2 className="text-blueC text-xl font-bold font-tsg text-[25px]">
                   {service.service_name}
                 </h2>
-                <p className="mb-4 tsgf text-justify  min-h-[8rem] xl:min-h-[10rem] p-2  ixi:text-[14px] iix:text-[12px] ixr:text-[14px] ">
+                <p className="mb-4 tsgf text-center  min-h-[8rem] xl:min-h-[10rem] p-2  ixi:text-[14px] iix:text-[12px] ixr:text-[14px] ">
                   {service.service_description}
                 </p>
                 <Link key={index} to={`/Services/${service.id}`}>

@@ -34,7 +34,7 @@ const AboutUs = () => {
           </div>
           <div className="lg:flex lg:justify-between lg:gap-8 items-center">
             <div className="lg:flex-1">
-              <article className="text-justify tsgf xl:text-xl">
+              <article className="text-center tsgf xl:text-xl">
                 At TriumphSolarPicasso, we specialize in illuminating homes
                 through solar services, offering solar installations/system
                 diagnosis. Our expert team delivers excellence in a spectrum of
