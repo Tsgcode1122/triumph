@@ -79,7 +79,7 @@ const ContactForm = () => {
             <div className=" flex flex-col items-center relative my-8 zoom pt-8">
               <img
                 src={brick}
-                className="max-w-full h-[3rem] rounded-full bg-blueC p-2 absolute mt-[-2rem] box-shad "
+                className="max-w-full h-[3rem] rounded-full bg-blueC p-2 absolute mt-[-2rem] shadow-2xl "
                 alt="Flooring"
               />
               <h2 className="text-redC tsgB subheadb  font-bold">CONTACT US</h2>
@@ -97,26 +97,26 @@ const ContactForm = () => {
             <div className="flex flex-col items-center justify-center  bg-transparent tsgf">
               <div className="flex px-4 justify-center  items-center ixi:gap-4 mb-4 tsgf ixi:flex-col iix:flex-col iix:gap-4 ixr:flex-col ixr:gap-4">
                 <a href="https://www.instagram.com/triumphsolarpicasso?igsh=MWF5d21nN3p4bWEzZQ==">
-                  <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
+                  <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 shadow-2xl mr-3 flex items-center gap-4">
                     <FaInstagram /> triumphsolarpicasso
                   </button>
                 </a>
                 <a href="tel:+14016326426">
-                  <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
+                  <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 shadow-2xl mr-3 flex items-center gap-4">
                     <IoMdCall /> (401) 632 6426
                   </button>
                 </a>
               </div>
               <div className="flex px-4 justify-center mb-4">
                 <a>
-                  <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
+                  <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 shadow-2xl mr-3 flex items-center gap-4">
                     <CiLocationOn /> 123 Main St, City, United States
                   </button>
                 </a>
               </div>
               <div className="flex flex-col px-4 justify-center">
                 <a href="mailto:triumphsolar@yahoo.com">
-                  <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
+                  <button className=" text-lightC shadow-lightC border-solid border-lightC rounded-md p-2 shadow-2xl mr-3 flex items-center gap-4">
                     <MdOutlineEmail />
                     triumphsolar@yahoo.com
                   </button>
@@ -126,7 +126,7 @@ const ContactForm = () => {
           </div>
           <form
             onSubmit={handleSubmit}
-            className="space-y-4 min-[500px]:px-10 py-10 sm:px-24 md:mx-16 font-tsg bg-lightC mt-[-29px] box-shad gb lg:mx-2 lg:px-6 iix:px-4 ixi:px-4 ixr:px-4 "
+            className="space-y-4 min-[500px]:px-10 py-10 sm:px-24 md:mx-16 font-tsg bg-lightC mt-[-29px] shadow-2xl gb lg:mx-2 lg:px-6 iix:px-4 ixi:px-4 ixr:px-4 "
           >
             <div className="zoom">
               <div className="min-[500px]:flex justify-between iix:grid iix:grid-cols-2 iix:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
@@ -145,7 +145,7 @@ const ContactForm = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="mt-1 p-2 border rounded w-full box-shad"
+                    className="mt-1 p-2 border rounded w-full shadow-2xl"
                   />
                 </div>
                 <div>
@@ -163,7 +163,7 @@ const ContactForm = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="mt-1 p-2 border rounded w-full box-shad"
+                    className="mt-1 p-2 border rounded w-full shadow-2xl"
                   />
                 </div>
               </div>
@@ -183,7 +183,7 @@ const ContactForm = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="mt-1 p-2 border rounded w-full box-shad"
+                    className="mt-1 p-2 border rounded w-full shadow-2xl"
                   />
                 </div>
                 <div>
@@ -201,7 +201,7 @@ const ContactForm = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="mt-1 p-2 border rounded w-full box-shad"
+                    className="mt-1 p-2 border rounded w-full shadow-2xl"
                   />
                 </div>
               </div>
@@ -219,7 +219,7 @@ const ContactForm = () => {
                   value={formData.services}
                   onChange={handleChange}
                   required
-                  className="mt-1 p-2 border rounded w-full box-shad"
+                  className="mt-1 p-2 border rounded w-full shadow-2xl"
                 >
                   <option value="" disabled>
                     Select a service
@@ -247,7 +247,7 @@ const ContactForm = () => {
                   value={formData.type}
                   onChange={handleChange}
                   required
-                  className="mt-1 p-2 border rounded w-full box-shad"
+                  className="mt-1 p-2 border rounded w-full shadow-2xl"
                 >
                   <option value="" disabled>
                     Select a type
@@ -270,7 +270,7 @@ const ContactForm = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="mt-1 p-2 border rounded w-full box-shad"
+                  className="mt-1 p-2 border rounded w-full shadow-2xl"
                 ></textarea>
               </div>
               <div className="text-center bg-redC rounded-xl text-lightC">
