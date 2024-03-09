@@ -76,7 +76,7 @@ const ContMain = () => {
             <div className=" flex flex-col items-center relative my-8 zoom">
               <img
                 src={brick}
-                className="max-w-full h-[3rem] rounded-full bg-lightC p-2 absolute mt-[-2rem] shadow-2xl "
+                className="max-w-full h-[3rem] rounded-full bg-lightC p-2 absolute mt-[-2rem] box-shad "
                 alt="Flooring"
               />
               <h2 className="text-redC tsgB subhead  font-bold">CONTACT US</h2>
@@ -94,26 +94,26 @@ const ContMain = () => {
             <div className="flex flex-col items-center justify-center  bg-transparent tsgf">
               <div className="flex px-4 justify-center mb-4 items-center ixi:gap-4 tsgf ixi:flex-col iix:flex-col iix:gap-4 ixr:flex-col ixr:gap-4">
                 <a href="https://www.instagram.com/triumphsolarpicasso?igsh=MWF5d21nN3p4bWEzZQ==">
-                  <button className=" text-blueC shadow-lightC border-solid border-lightC rounded-md p-2 shadow-2xl mr-3 flex items-center gap-4">
+                  <button className=" text-blueC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
                     <FaInstagram /> triumphsolarpicasso
                   </button>
                 </a>
                 <a href="tel:+14016326426">
-                  <button className=" text-blueC shadow-lightC border-solid border-lightC rounded-md p-2 shadow-2xl mr-3 flex items-center gap-4">
+                  <button className=" text-blueC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
                     <IoMdCall /> (401) 632 6426
                   </button>
                 </a>
               </div>
               <div className="flex px-4 justify-center mb-4">
                 <a>
-                  <button className=" text-blueC shadow-lightC border-solid border-lightC rounded-md p-2 shadow-2xl mr-3 flex items-center gap-4">
+                  <button className=" text-blueC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
                     <CiLocationOn /> 123 Main St, City, United States
                   </button>
                 </a>
               </div>
               <div className="flex flex-col px-4 justify-center">
                 <a href="mailto:triumphsolar@yahoo.com">
-                  <button className=" text-blueC shadow-lightC border-solid border-lightC rounded-md p-2 shadow-2xl mr-3 flex items-center gap-4">
+                  <button className=" text-blueC shadow-lightC border-solid border-lightC rounded-md p-2 box-shad mr-3 flex items-center gap-4">
                     <MdOutlineEmail />
                     triumphsolar@yahoo.com
                   </button>
@@ -123,7 +123,7 @@ const ContMain = () => {
           </div>
           <form
             onSubmit={handleSubmit}
-            className="space-y-4 p-10 sm:px-24 md:mx-16 font-tsg bg-lightC mt-[-29px] shadow-2xl gb lg:mx-2 lg:px-6 iix:px-4 ixi:px-4 ixr:px-4"
+            className="space-y-4 p-10 sm:px-24 md:mx-16 font-tsg bg-lightC mt-[-29px] box-shad gb lg:mx-2 lg:px-6 iix:px-4 ixi:px-4 ixr:px-4"
           >
             <div className="zoom">
               <div className="flex justify-between iix:grid iix:grid-cols-2 iix:gap-3 ixr:grid ixr:grid-cols-2 ixr:gap-3">
